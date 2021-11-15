@@ -1,0 +1,97 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px; */
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  /* .content {
+    padding: 16px;
+  } */
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+  }
+
+.apod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* 
+   .apod {
+     margin-top: 200px;
+    display: grid;
+    grid-template-rows: [row1-start] 210px [row1-end] 230px [row2-start] 270px [row2-end] 380px [row3-start] auto [row3-end] 0px;
+    grid-template-columns: [first] 50px [line2] auto [line3] 50px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .apod h1 {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row1-start;
+      grid-row-end: row1-end;
+      margin-bottom: 50px;
+  }
+
+  .apod img {
+      max-width: 80%;
+      max-height: auto;
+    grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row2-start;
+      grid-row-end: row2-end;
+  }
+
+  .apod p {
+      max-width: 70vw;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row3-start;
+      grid-row-end: row3-start;
+      margin-bottom: 20px; 
+      font-size: 20px;
+  }
+
+  .rovers {
+    margin-top: 650px;
+    display: grid;
+    grid-template-rows: [row1-start] auto [row1-end] auto [row2-start] auto [row2-end] auto;
+    grid-template-columns: [first] 10vw [line2] auto [line3] 10vw;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .rovers h1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+    margin-bottom: 50px;
+}
+
+  .rovers img {
+      max-width: 80%;
+      max-height: auto;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: row2-start;
+      grid-row-end: row2-end;
+  } */  
