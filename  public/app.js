@@ -8,7 +8,7 @@ const section = document.querySelector('.results')
 const url1 = `${apodUrl}?api_key=${apiKey}`;
 const url2 = `${roversUrl}?sol=1000&api_key=${apiKey}`
 
-// const urls = [
+// const urls = [    // attempting to utilize promise all to load multiple api's. Come back to later
 //     apod = url1,
 //     rovers = url2,
 //   ]
